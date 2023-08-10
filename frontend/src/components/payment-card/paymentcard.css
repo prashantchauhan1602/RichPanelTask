@@ -1,0 +1,54 @@
+.payment__card {
+    background-color: var(--light);
+    padding: 2rem ;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.payment__card h2 {
+    font-size: 23px;
+     font-family: 'Poppins', sans-serif;
+     color: rgba(0, 0, 0, 0.865);
+}
+.payment__card small {
+    color: gray;
+}
+
+#payment {
+    width: inherit;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+.order__info {
+    flex-basis: 230px;
+    background-color: rgba(211, 211, 211, 0.273);
+    margin: -2rem;
+    padding: 2rem;
+    border-top-right-radius: 1rem;
+}
+.order__info h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+.order__info ul {
+    list-style-type: none;
+    padding: 2rem 0px;
+}
+.order__info ul li {
+    margin: 0.8rem 0px;
+}
+.order__info ul span{
+    font-weight: bold;
+    float: right;
+}
+.order__info hr {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+  
+}
+
+.incapital{
+    text-transform: capitalize;
+}

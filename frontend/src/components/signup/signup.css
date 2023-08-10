@@ -1,0 +1,63 @@
+.card {
+    background-color: var(--light);
+    padding: 2rem 3rem;
+    width: 25%;
+    border-radius: 1rem;
+}
+.card__content {
+    padding: 1rem;
+
+}
+.card__content label, input {
+    display: block;
+}
+
+
+.card__content input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin: 0.5rem 0px;
+    outline: none;
+}
+.card__content label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+.card__content h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#btn {
+    width: 106%;
+    margin-top: 2rem;
+}
+
+.formfooter {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+#rmb{
+    display: flex;
+    height: 3rem;
+    width: 50%;
+    align-items: center;
+}
+#rmb input{
+    margin-top: 1rem;
+    width: 20%;
+    height: 30%;
+}
+#rmb label{
+    width: 80%;
+}
+

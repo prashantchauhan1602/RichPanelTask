@@ -1,0 +1,70 @@
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.card__header button {
+    background: white;
+    border: none;
+    cursor: pointer;
+    color: var(--primary);
+    font-weight: bolder;
+    
+}
+.card__header h3 {
+    font-weight: 500;
+}
+.plan__card p {
+    margin-top: 1rem;
+    font-size: 15px;
+}
+.plan__card small {
+    color: gray;
+    font-size: 12px;
+}
+.plan__card h1 {
+    margin: 0.7rem 0px;
+}
+.namePlan{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.plan-select{
+    opacity: 80;
+}
+.plan__card p:last-child {
+    background-color: rgba(211, 211, 211, 0.282);
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 7px;
+}
+#pbtn {
+    width: fit-content;
+}
+.plan__card h1{
+    font-size: 25px;
+   
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.active__badge {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgba(30, 143, 255, 0.464);
+    color: rgba(0, 0, 255, 0.685);
+}
+.cancel__badge{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.151);
+    color: rgba(255, 0, 0, 0.629);
+}

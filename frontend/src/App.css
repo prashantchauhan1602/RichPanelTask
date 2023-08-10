@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*  {
+  padding: 0px;
+  margin: 0px;
+}
+
+:root{
+  --primary: #1e4d90;
+  --btn-color: #1e4c91;
+  --light: #fefeff;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+.btn {
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0.5rem 0px;
+  outline: none;
+  border: none;
+  
+}
+.btn__secondary{
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.btn__secondary:hover {
+  background-color: var(--light);
+}
+.btn:hover {
+  background-color: var(--primary);
+  color: var(--light);
+}
+.App {
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.FormGroup {
+	margin-top: 20px;
+	padding: 0;
+	border-style: none;
+	background-color: white;
+	will-change: opacity, transform;
+  color: black;
+	border-radius: 4px;
+}
+
+.FormRow {
+  padding: 5px;
+  width: 400px;
+	display: flex;
+	margin-left: 0px;
+  border: 1px solid lightgrey;
+  color: black;
+}
+
+.StripeElement--webkit-autofill {
+	background: transparent !important;
+}
+
+.StripeElement {
+	width: 100%;
+	padding: 11px 15px 11px 0;
+}
